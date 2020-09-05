@@ -20,5 +20,10 @@ public class HeadersSection {
 	
 	@FindBy(xpath="//a[contains(text(),'Register')]")
 	public static WebElement register;
+	
+	@FindBy(xpath="//a[contains(text(),'Login')]")
+	public static WebElement Login;
+	
+	
 
 }
