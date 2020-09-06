@@ -39,7 +39,11 @@ public static WebElement forgotpassword;
 public static WebElement InvalidDetailsalert;
 
 
-
+public static void dologin() {
+	Elements.TypeText(emailfield,Base.reader.getUsername() );
+	Elements.TypeText(passwordfield,Base.reader.getPassword() );
+	Elements.click(loginbtn);
+}
 
 
 

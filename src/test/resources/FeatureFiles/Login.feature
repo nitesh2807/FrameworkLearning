@@ -13,7 +13,7 @@ Then I should be login successfully
 Scenario: Verify the user is not able to login with invalid Credentials
 Given I launch the application
 And I Navigate to Login page
-When I enter username "root3@gmail.com" and password "root"
+When I enter username "root4@gmail.com" and password "root"
 Then I should see an error message informing the user about invalid credentails
 
 @Login @three

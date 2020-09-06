@@ -7,14 +7,14 @@ import cucumber.api.junit.Cucumber;
 
 /*@RunWith(Cucumber.class)
 
-	@CucumberOptions(features= {"classpath:FeatureFiles\\Search.feature"},
+	@CucumberOptions(features= {"classpath:FeatureFiles\\orders.feature"},
 			glue= {"com.tutorialsninja.automation.stepdef"},
 			plugin= {"html:target/cucmber_html_report"},
-			tags= {"@Search"}
+			tags= {"@orders"}
 			)*/
 @RunWith(Cucumber.class)
 
-@CucumberOptions(features= {"classpath:FeatureFiles\\Search.feature","classpath:FeatureFiles\\Register.feature","classpath:FeatureFiles\\Login.feature"},
+@CucumberOptions(features= {"classpath:FeatureFiles\\orders.feature","classpath:FeatureFiles\\Search.feature","classpath:FeatureFiles\\Register.feature","classpath:FeatureFiles\\Login.feature"},
 		glue= {"com.tutorialsninja.automation.stepdef"},
 		plugin= {"html:target/cucmber_html_report"}
 	
